@@ -1,0 +1,21 @@
+{
+    "name": "vendor/compliments-model",
+    "description": "Description of project Compliments-Model.",
+    "authors": [
+        {
+            "name": "kuzma",
+            "email": "kuzma.bakulin@gmail.com"
+        }
+    ],
+    "require": {
+        "losthost/db": "v2.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ComplimentsModel\\": "src/"
+        }
+    }
+}
