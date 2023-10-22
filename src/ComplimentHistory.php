@@ -1,12 +1,12 @@
 <?php
 
-namespace ComplimentsModel;
+namespace megahard\ComplimentsModel;
 use PHPUnit\Framework\TestCase;
-use ComplimentsModel\data\DBUser;
-use ComplimentsModel\data\DBCompliment;
-use ComplimentsModel\data\DBComplimentHistory;
-use ComplimentsModel\User;
-use ComplimentsModel\Compliment;
+use megahard\ComplimentsModel\data\DBUser;
+use megahard\ComplimentsModel\data\DBCompliment;
+use megahard\ComplimentsModel\data\DBComplimentHistory;
+use megahard\ComplimentsModel\User;
+use megahard\ComplimentsModel\Compliment;
 use losthost\DB\DBView;
 
 class ComplimentHistory {

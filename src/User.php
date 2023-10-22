@@ -5,8 +5,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/PHPClass.php to edit this template
  */
 
-namespace ComplimentsModel;
-use ComplimentsModel\data\DBUser;
+namespace megahard\ComplimentsModel;
+use megahard\ComplimentsModel\data\DBUser;
 
 /**
  * Description of User

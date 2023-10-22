@@ -5,7 +5,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/PHPClass.php to edit this template
  */
 
-namespace ComplimentsModel\data;
+namespace megahard\ComplimentsModel\data;
 use losthost\DB\DBObject;
 /**
  * Description of DBUser

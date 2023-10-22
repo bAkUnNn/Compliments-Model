@@ -1,6 +1,6 @@
 <?php
 
-namespace ComplimentsModel\data;
+namespace megahard\ComplimentsModel\data;
 use \losthost\DB\DBObject;
 
 class DBCompliment extends DBObject {

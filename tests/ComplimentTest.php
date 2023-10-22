@@ -1,7 +1,7 @@
 <?php
 
-namespace ComplimentsModel;
-use ComplimentsModel\data\DBCompliment;
+namespace megahard\ComplimentsModel;
+use megahard\ComplimentsModel\data\DBCompliment;
 use PHPUnit\Framework\TestCase;
 /**
  * Description of ComplimentTest

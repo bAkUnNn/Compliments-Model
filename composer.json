@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ComplimentsModel\\": "src/"
+            "megahard\\ComplimentsModel\\": "src/"
         }
     }
 }
