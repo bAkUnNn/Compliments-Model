@@ -62,5 +62,17 @@ final class UserTest extends TestCase {
         $db_user2->write();
         
     }
+    
+    public function testReturnFalseIfWrongId() {
+        $user = new User();
+        $db_user = $user->getById(888888888888);
+        $this->assertFalse($db_user);
+    }
+
+    public function testReturnFalseIfWrongTgId() {
+        $user = new User();
+        $db_user = $user->getByTelegramId(888888888888);
+        $this->assertFalse($db_user);
+    }
 
 }

@@ -22,13 +22,25 @@ class User {
         return $user;
     }
     
-    public function getById(int $id) : DBUser {
-        $user = new DBUser("id = ?", $id);
+    public function getById(int $id) : DBUser|false {
+        
+        try {
+            $user = new DBUser("id = ?", $id);           
+        } catch (\Exception $exc) {            
+            return false;           
+        }
+            
         return $user;
     }
-    
-    public function getByTelegramId(int $telegram_id) : DBUser {
-        $user = new DBUser("telegram_id = ?", $telegram_id);
+     
+    public function getByTelegramId(int $telegram_id) : DBUser|false {
+        
+        try {           
+            $user = new DBUser("telegram_id = ?", $telegram_id);          
+        } catch (\Exception $exc) {           
+            return false;           
+        }
+            
         return $user;
     }
     
